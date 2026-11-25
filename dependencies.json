@@ -1,0 +1,113 @@
+{
+  "releases": {
+    "OpenCorePkg": {
+      "url": "https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.8/OpenCore-1.0.8-RELEASE.zip",
+      "sha256": "2011e8b7216ecb2645d97ea710df965947edd406846e92050b9bc4190be6d27b",
+      "kexts": []
+    },
+    "Lilu": {
+      "url": "https://github.com/acidanthera/Lilu/releases/download/1.7.2/Lilu-1.7.2-RELEASE.zip",
+      "sha256": "53967d7dcfaab01023a33df2e969a89522f13d6654a6a56ac4711b62dabf3ab8",
+      "kexts": [
+        "Lilu.kext"
+      ]
+    },
+    "BrightnessKeys": {
+      "url": "https://github.com/acidanthera/BrightnessKeys/releases/download/1.0.3/BrightnessKeys-1.0.3-RELEASE.zip",
+      "sha256": "c9a80f6275e39c18886087a70ba0fe615ce45f83b7afa254b74335f7a92b8544",
+      "kexts": [
+        "BrightnessKeys.kext"
+      ]
+    },
+    "VirtualSMC": {
+      "url": "https://github.com/acidanthera/VirtualSMC/releases/download/1.3.8/VirtualSMC-1.3.8-RELEASE.zip",
+      "sha256": "2e29a8aaf91b4eb0bcdf5913ed17e70f5cf76531122acd4132eff7813a54de8b",
+      "kexts": [
+        "VirtualSMC.kext",
+        "SMCBatteryManager.kext",
+        "SMCProcessor.kext"
+      ]
+    },
+    "WhateverGreen": {
+      "url": "https://github.com/acidanthera/WhateverGreen/releases/download/1.7.1/WhateverGreen-1.7.1-RELEASE.zip",
+      "sha256": "1bfdd2d40290ecce237606db121cbc01d7041179f03394bd59660a2ed52e5c95",
+      "kexts": [
+        "WhateverGreen.kext"
+      ]
+    },
+    "AppleALC": {
+      "url": "https://github.com/acidanthera/AppleALC/releases/download/1.9.8/AppleALC-1.9.8-RELEASE.zip",
+      "sha256": "d4d36cd2da7863cf7cbfcb0892d45c08457f4f4ddd065a073dd010e46bd63bcb",
+      "kexts": [
+        "AppleALC.kext"
+      ]
+    },
+    "CpuTscSync": {
+      "url": "https://github.com/acidanthera/CpuTscSync/releases/download/1.1.2/CpuTscSync-1.1.2-RELEASE.zip",
+      "sha256": "bc289f780c52015ae788827b3db8e6c2ab9f512992b3a157a4a5c15df1eb4ed3",
+      "kexts": [
+        "CpuTscSync.kext"
+      ]
+    },
+    "VoodooPS2": {
+      "url": "https://github.com/acidanthera/VoodooPS2/releases/download/2.3.7/VoodooPS2Controller-2.3.7-RELEASE.zip",
+      "sha256": "d5483298736ba4b3b82c7203d9a46968c668fb7af732b8b22c2096deb0acf83f",
+      "kexts": [
+        "VoodooPS2Controller.kext"
+      ]
+    },
+    "VoodooI2C": {
+      "url": "https://github.com/VoodooI2C/VoodooI2C/releases/download/v2.9.1/VoodooI2C-2.9.1-RELEASE.zip",
+      "sha256": "368e5eb60794583c340764813bd7e8244e94d3d3c06ea5b67034addd539487f4",
+      "kexts": [
+        "VoodooI2C.kext",
+        "VoodooI2CHID.kext"
+      ]
+    },
+    "itlwm": {
+      "url": "https://github.com/OpenIntelWireless/itlwm/releases/download/v2.3.0/AirportItlwm_v2.3.0_stable_Catalina.kext.zip",
+      "sha256": "68ce60fa7c1f625ba3d07e8ad1b36798e6fffe076f7d0cd021db39b09367d7fb",
+      "kexts": [
+        "AirportItlwm.kext"
+      ]
+    },
+    "IntelBluetoothFirmware": {
+      "url": "https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases/download/v2.4.0/IntelBluetooth-v2.4.0.zip",
+      "sha256": "78418daa11f620012fc53ba68cbd643c2642a45f2f96c594fd01aaf2bc68fe2b",
+      "kexts": [
+        "IntelBluetoothFirmware.kext",
+        "IntelBluetoothInjector.kext",
+        "IntelBTPatcher.kext"
+      ]
+    },
+    "RealtekCardReader": {
+      "url": "https://github.com/0xFireWolf/RealtekCardReader/releases/download/v0.9.8/RealtekCardReader_0.9.8_380819f_RELEASE.zip",
+      "sha256": "46c8bccdb1fad730b3dfd06ac1b0b986df04c3b0b5a83bd9505d7c8c927026e1",
+      "kexts": [
+        "RealtekCardReader.kext"
+      ]
+    }
+  },
+  "acpi": {
+    "SSDT-AWAC.aml": {
+      "url": "https://raw.githubusercontent.com/dortania/Getting-Started-With-ACPI/60029d4fff6d56e210e5f682f6dd6508c4bb3343/extra-files/compiled/SSDT-AWAC.aml",
+      "sha256": "13e6e56fc0ec9f97a3b69169d5b2a91684221610d248f0d4cc0bac27418d3eb3"
+    },
+    "SSDT-EC-USBX-LAPTOP.aml": {
+      "url": "https://raw.githubusercontent.com/dortania/Getting-Started-With-ACPI/60029d4fff6d56e210e5f682f6dd6508c4bb3343/extra-files/compiled/SSDT-EC-USBX-LAPTOP.aml",
+      "sha256": "dbe6692a8b3747fb18f26b1f12e9fe3e96d0d0964bea71edf0f9d5cb37fba29e"
+    },
+    "SSDT-PLUG-DRTNIA.aml": {
+      "url": "https://raw.githubusercontent.com/dortania/Getting-Started-With-ACPI/60029d4fff6d56e210e5f682f6dd6508c4bb3343/extra-files/compiled/SSDT-PLUG-DRTNIA.aml",
+      "sha256": "514aa0614ec36a532ddb2676d599607dedd3f6d49bd250ae1df450402377ba56"
+    },
+    "SSDT-PNLF.aml": {
+      "url": "https://raw.githubusercontent.com/dortania/Getting-Started-With-ACPI/60029d4fff6d56e210e5f682f6dd6508c4bb3343/extra-files/compiled/SSDT-PNLF.aml",
+      "sha256": "a8aada737d48f7d069285be458d4da0797723add5b56a13c902faa73ae369ef6"
+    },
+    "SSDT-XOSI.aml": {
+      "url": "https://raw.githubusercontent.com/dortania/Getting-Started-With-ACPI/60029d4fff6d56e210e5f682f6dd6508c4bb3343/extra-files/compiled/SSDT-XOSI.aml",
+      "sha256": "fe798a64615d7195c38cf7f38530dc9fab97e2e88136c46f08d10873d9c35ca8"
+    }
+  }
+}
